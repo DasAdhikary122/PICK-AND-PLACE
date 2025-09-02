@@ -33,53 +33,39 @@ Includes the simulation scene (`.ttt`) and Python script (`.py`) for smooth obje
 - **Dependencies**:
   ```bash
   pip install coppeliasim-zmqremoteapi-client
-````
-
----
+  ````
 
 ## ▶️ How to Simulate
 
-1. **Open the Scene in CoppeliaSim**
+ 1. Open the Scene in CoppeliaSim 
+   - Launch CoppeliaSim 
+   - Open the file: `pick and place.ttt`
 
-   * Launch **CoppeliaSim**.
-   * Open the file:
+ 2. Ensure Remote API is Enabled 
+   - In CoppeliaSim, the ZMQ Remote API is enabled by default in recent versions  
+   - Keep the simulation stopped — the Python script will control starting and stepping the sim
 
-     ```
-     pick and place.ttt
-     ```
-
-2. **Ensure Remote API is Enabled**
-
-   * In CoppeliaSim, the **ZMQ Remote API** is enabled by default in recent versions.
-   * Keep the simulation **stopped** — the Python script will control starting and stepping the sim.
-
-3. **Run the Python Script**
-
-   * Open a terminal in your project folder.
-   * Execute:
-
+ 3. Run the Python Script
+   - Open a terminal in your project folder  
+   - Execute:  
      ```bash
      python pick_and_place.py
      ```
 
+ 4. Stop Simulation (optional) 
+   - Once finished, the script will stop sending steps  
+   - You can manually stop the simulation in CoppeliaSim if needed
 
-4. **Stop Simulation (optional)**
-
-   * Once finished, the script will stop sending steps.
-   * You can manually stop the simulation in CoppeliaSim if needed.
-
----
-
-## 📸 Demo
+ 
+📸 Demo
 
 The IRB140 robot smoothly picks an object from the table and places it at a target location using the gripper.
-*(Add a GIF or screenshot here for better presentation)*
+(Add a GIF or screenshot here for better presentation)
+
+📜 License
+
+This project is open-source under the MIT License.
+
 
 ---
-
-## 📜 License
-
-This project is open-source under the **MIT License**.
-
-```
 
