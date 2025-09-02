@@ -56,11 +56,12 @@ Includes the simulation scene (`.ttt`) and Python script (`.py`) for smooth obje
    - Once finished, the script will stop sending steps  
    - You can manually stop the simulation in CoppeliaSim if needed
 
- 
-📸 Demo
+## 📸 Demo
 
-The IRB140 robot smoothly picks an object from the table and places it at a target location using the gripper.
-(Add a GIF or screenshot here for better presentation)
+Here’s the IRB140 robot performing the pick-and-place task in CoppeliaSim:
+
+![Pick and Place Demo](assets/screenshot.png)
+
 
 📜 License
 
