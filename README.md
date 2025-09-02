@@ -1,13 +1,7 @@
-# PICK-AND-PLACE
+# PICK-AND-PLACE - CoppeliaSim + Python Remote API
 Pick-and-Place simulation using ABB IRB140 robot in CoppeliaSim, controlled via Python Remote API (ZMQ).  Includes the simulation scene (.ttt) and Python script for smooth object manipulation with gripper control.
 
 
-
-# 🤖 Pick and Place – CoppeliaSim + Python Remote API
-
-This project demonstrates a **Pick-and-Place simulation using the **ABB IRB140 robot** with a gripper in **CoppeliaSim**, controlled via Python using the **ZMQ Remote API**.
-
----
 
 ## 📂 Repository Contents
 - `pick and place.ttt` → CoppeliaSim scene file containing the IRB140 robot, gripper, object, and targets.
@@ -36,3 +30,64 @@ This project demonstrates a **Pick-and-Place simulation using the **ABB IRB140 r
 - **Dependencies**:
   ```bash
   pip install coppeliasim-zmqremoteapi-client
+
+
+▶️ How to Simulate
+
+Open the Scene in CoppeliaSim
+
+Launch CoppeliaSim.
+
+Open the file:
+
+pick and place.ttt
+
+
+Ensure Remote API is Enabled
+
+In CoppeliaSim, the ZMQ Remote API is enabled by default in recent versions.
+
+Keep the simulation stopped — the Python script will control starting and stepping the sim.
+
+Run the Python Script
+
+Open a terminal in your project folder.
+
+Execute:
+
+python pick_and_place.py
+
+
+Watch the Simulation 🎥
+
+The robot will:
+
+Open the gripper
+
+Move above the object
+
+Grip the object
+
+Lift it smoothly
+
+Move to the target position
+
+Release the object
+
+Stop Simulation (optional)
+
+Once finished, the script will stop sending steps.
+
+You can manually stop the simulation in CoppeliaSim if needed.
+
+📸 Demo
+
+The IRB140 robot smoothly picks an object from the table and places it at a target location using the gripper.
+(Add a GIF or screenshot here for better presentation)
+
+📜 License
+
+This project is open-source under the MIT License.
+
+
+---
