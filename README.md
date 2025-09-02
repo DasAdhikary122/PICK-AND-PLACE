@@ -60,7 +60,10 @@ Includes the simulation scene (`.ttt`) and Python script (`.py`) for smooth obje
 
 Here’s the IRB140 robot performing the pick-and-place task in CoppeliaSim:
 
-![Pick and Place Demo](assets/photo.png)
+![CoppeliaSim pick-and-place robot demo](photo/photo.png)
+
+
+
 
 
 📜 License
