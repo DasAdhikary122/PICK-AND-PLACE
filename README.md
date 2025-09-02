@@ -62,7 +62,13 @@ Here’s the IRB140 robot performing the pick-and-place task in CoppeliaSim:
   ![Pick and Place Demo](photo.png)
 
 
+👨‍💻 Author :Suman Das Adhikary
 
+
+🔗 LinkedIn
+ linkedin.com/in/suman-das-adhikary-ba1651253
+
+📧 Contact: sumandasadhikary457@gmail.com
 
 
 
